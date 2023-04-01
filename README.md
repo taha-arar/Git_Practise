@@ -1,2 +1,2 @@
 # Git_Practise
-This is repo was used to learn git & gitHub
+This repo was used to learn git & gitHub
