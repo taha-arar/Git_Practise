@@ -4,10 +4,8 @@ public class Personne{
 	private String lastName;
 	private String arabFullName;
 
-	public Personne(Long id, String arabFullName){
-		this.id=id;
-		this.name=arabFullName;
-		this.lastName=arabFullName;
+	public Personne(){
+		
 	}
 	public Long getId(){
 		return this.id;
