@@ -2,11 +2,12 @@ public class Personne{
 	private Long id;
 	private String name;
 	private String lastName;
+	private String arabFullName;
 
-	public Personne(Long id, String name, String lastName){
+	public Personne(Long id, String arabFullName){
 		this.id=id;
-		this.name=name;
-		this.lastName=lastName;
+		this.name=arabFullName;
+		this.lastName=arabFullName;
 	}
 	public Long getId(){
 		return this.id;
