@@ -1,5 +1,6 @@
 public Class MainClass {
 	public static void main(String[] args){
-		System.out.println("Hellow Git World !");
+		String message = "Hellow Git World !";
+		System.out.println(message);
 	}
   }
