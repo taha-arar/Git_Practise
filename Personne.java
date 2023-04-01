@@ -4,11 +4,18 @@ public class Personne{
 	private String lastName;
 	private String arabFullName;
 
-	public Personne(Long id){
-		this.id=id;
-		
+
+	public Personne(){
 		
 	}
+
+
+
+   public Personne(Long id){
+        this.id=id;
+        }
+
+
 	public Long getId(){
 		return this.id;
 	}
